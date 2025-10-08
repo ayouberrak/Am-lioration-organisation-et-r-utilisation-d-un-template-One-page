@@ -739,7 +739,12 @@ strong {
 .schedule-table .country-background-image {
   background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
 }
-
+.schedule-table .jaw-background-image{
+  background-image: url('../images/rock.jpg');
+}
+.schedule-table .freeStyle-background-image{
+  background-image: url('../images/rap.jpg');
+}
 .table-background-image-wrap {
   background-repeat: no-repeat;
   background-position: center;
