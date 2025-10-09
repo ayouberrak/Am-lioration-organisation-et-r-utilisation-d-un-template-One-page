@@ -121,6 +121,10 @@ a {
 a:hover {
   color: var(--link-hover-color);
 }
+.nav-link.active {
+  color: var(--link-hover-color);
+}
+
 
 b,
 strong {

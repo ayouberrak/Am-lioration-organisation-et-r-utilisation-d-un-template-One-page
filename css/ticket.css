@@ -1,0 +1,114 @@
+.tikectHeaderSection {
+  position: relative;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 80px; 
+  color: #fff;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.758) 35%, rgba(0, 0, 0, 0.3) 70%, transparent),
+    url('../images/ticket.webp'); 
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.titre {
+  max-width: 500px;
+  z-index: 2;
+}
+
+.titre h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.titre button {
+  background-color: #bb3800;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.titre button:hover {
+  background-color: #eb731d;
+  transform: scale(1.05);
+}
+.form-ticket {
+  background: linear-gradient( #0d0d0dad, #1a1a1a);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.formulaire-complet {
+  background: rgba(0, 0, 0, 0.441);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  width: 400px;
+}
+
+.formulaire h4 {
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+  color: #ffcc00;
+}
+.formulaire input,
+.formulaire select {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 6px 0 18px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #050505;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.formulaire input:focus,
+.formulaire select:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.formulaire button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ffcc00, #ff9900);
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.formulaire button:hover {
+  background: linear-gradient(90deg, #ff9900, #ff6600);
+  transform: scale(1.03);
+}
+@media (max-width: 480px) {
+  .formulaire-complet {
+    width: 90%;
+    padding: 25px;
+  }
+  .div1 {
+    flex-direction: column;
+  }
+}
