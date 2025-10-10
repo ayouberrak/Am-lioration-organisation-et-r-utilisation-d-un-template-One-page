@@ -122,15 +122,31 @@ a:hover {
   color: var(--link-hover-color);
 }
 .nav-link.active {
-  color: var(--link-hover-color);
+  color: black;
 }
-
-
 b,
 strong {
   font-weight: var(--font-weight-bold);
 }
-
+#span12{
+  color: var(--secondary-color);
+  font-size: 50px;
+}
+#span13{
+    font-size: 45px;
+}
+#span14{
+    font-size: 40px;
+}#span15{
+    font-size: 35px;
+}#span16{
+    font-size: 30px;
+}#span17{
+    font-size: 25px;
+}
+#span18{
+    font-size: 20px;
+}
 .link-fx-1 {
   color: var(--white-color);
   position: relative;
